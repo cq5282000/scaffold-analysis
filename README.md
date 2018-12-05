@@ -13,3 +13,26 @@
      "hello": "./bin/hello.js"
  }
  ```
+
+  - 如果不设置指令，默认执行使用name属性作为指令名称。
+
+ ```javascript
+ "bin": "./bin/hello.js"
+ ```
+  - 关联的文件必须以 #!/usr/bin/env node 开始，否则无法使用node指令执行
+
+  - 发布安装后可以测试指令，本地测试的话，执行 npm link，然后输入hello，可以看到文件执行
+
+  - npm link，在本地开发npm模块的时候，我们可以使用npm link命令，将npm模块连接到对应的运行项目中去，方便的对模块进行调试和测试。
+
+
+#### 关于npm link指令
+
+ - 解决我们包开发过程中的安装调试问题
+
+ - 在当前开发包里调用npm link会创建一个软链到全局安装包目录,例如在当前目录下执行
+
+ ```bash
+ /usr/local/lib/node_modules/scaffold-analysis -> /Users/chenqu/Documents/project-personal/scaffold-analysis
+ ```
+
