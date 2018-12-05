@@ -35,4 +35,6 @@
  ```bash
  /usr/local/lib/node_modules/scaffold-analysis -> /Users/chenqu/Documents/project-personal/scaffold-analysis
  ```
+- 在调用的工程里执行npm link scaffold-analysis会创建一个映射到对应工程包的软链。
 
+/Users/chenqu/Documents/project-personal/webpack4/node_modules/scaffold-analysis -> /usr/local/lib/node_modules/scaffold-analysis -> /Users/chenqu/Documents/project-personal/scaffold-analysis
