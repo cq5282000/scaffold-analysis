@@ -46,3 +46,8 @@
 ```bash
 /usr/local/bin/hello -> /usr/local/lib/node_modules/scaffold-analysis/bin/hello.js
 ```
+
+#### 指令解析
+
+ - NODE_ENV=development hello build, 这种情况下NODE_ENV作为变量挂载在process.env上
+ - hello build NODE_ENV=development，这种情况下，NODE_ENV作为传餐存储在process.argv
