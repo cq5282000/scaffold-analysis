@@ -1,0 +1,22 @@
+{
+  "name": "scaffold-analysis",
+  "version": "1.0.0",
+  "description": "### 2018年12月5日",
+  "main": "index.js",
+  "bin": {
+    "hello": "bin/hello.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cq5282000/scaffold-analysis.git"
+  },
+  "author": "chenqu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cq5282000/scaffold-analysis/issues"
+  },
+  "homepage": "https://github.com/cq5282000/scaffold-analysis#readme"
+}
