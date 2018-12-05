@@ -37,4 +37,12 @@
  ```
 - 在调用的工程里执行npm link scaffold-analysis会创建一个映射到对应工程包的软链。
 
+ ```bash
 /Users/chenqu/Documents/project-personal/webpack4/node_modules/scaffold-analysis -> /usr/local/lib/node_modules/scaffold-analysis -> /Users/chenqu/Documents/project-personal/scaffold-analysis
+ ```
+
+- 对应package.json的bin属性设置的自定义指令，会创建一个该指令到指令的对应的执行文件的软链
+
+```bash
+/usr/local/bin/hello -> /usr/local/lib/node_modules/scaffold-analysis/bin/hello.js
+```
